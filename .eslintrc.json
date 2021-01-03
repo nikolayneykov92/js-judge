@@ -1,0 +1,13 @@
+{
+  "env": {
+    "es6": false,
+    "commonjs": false
+  },
+  "extends": ["eslint:recommended", "plugin:es5/no-es2015"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "rules": {},
+  "plugins": ["es5"]
+}
